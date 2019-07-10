@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>football</title>
+    <script type="text/javascript" src="jquery.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body class="addteam">
+    <nav class="navbar navbar-expand-sm bg-secondary navbar-dark ">
+        <ul class="navbar-nav ">
+            <li class="nav-item">
+                <a href="index.html">
+                    <button type="button" class="btn btn-primary active">Home</button>
+                </a>
+            </li>
+            <li class="nav-item" href="#">
+                <a href="player.html">
+                    <button type="button" class="btn btn-primary active">Player</button>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="team.html">
+                    <button type="button" class="btn btn-primary active">Team</button>
+                </a>
+            </li>
+            <li>
+                <h3 class="h">Adding Team And Each Team Information</h3>
+            </li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="col-md-6">
+            <br>
+            <br>
+            <br>
+            <br>
+            <form role="form">
+                <table class="table aa">
+                    <tr>
+                        <th>
+                            <label>TeamName</label>
+                        </th>
+                        <td>
+                            <input type="text" class="form-control" id="r_teamname">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            <label>League</label>
+                        </th>
+                        <td>
+                            <input type="text" class="form-control" id="r_league">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            <label>Value</label>
+                        </th>
+                        <td>
+                            <input type="text" class="form-control" id="r_value">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            <label>Nation</label>
+                        </th>
+                        <td>
+                            <input type="text" class="form-control" id="r_nation">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            <label>Continent</label>
+                        </th>
+                        <td>
+                            <input type="text" class="form-control" id="r_continent">
+                        </td>
+                    </tr>
+                </table>
+            </form>
+            <a href="team.html"><button class="btn btn-success">Back</button></a>
+            <button class="btn btn-success" id="addteam" onclick="addplayer();">Save</button>
+        </div>
+        <div class="col-md-6"></div>
+    </div>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/addteam.js"></script>
+</body>
+
+</html>

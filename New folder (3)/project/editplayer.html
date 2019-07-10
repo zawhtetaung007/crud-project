@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>football</title>
+    <script type="text/javascript" src="jquery.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body class="addplayer">
+    <nav class="navbar navbar-expand-sm bg-secondary navbar-dark ">
+        <ul class="navbar-nav ">
+            <li class="nav-item">
+                <a href="index.html"><button type="button" class="btn btn-primary active">Home</button></a>
+            </li>
+            <li class="nav-item" href="#">
+                <a href="player.html"><button type="button" class="btn btn-primary active">Player</button></a>
+            </li>
+            <li class="nav-item">
+                <a href="team.html"><button type="button" class="btn btn-primary active">Team</button></a>
+            </li>
+            <li>
+                <h3 class="h">Edit Player And Each Player Information</h3>
+            </li>
+        </ul>
+    </nav>
+    <div class="container">
+        <br><br><br><br><br><br>
+        <a href="player.html"><button class="btn btn-success">Back</button></a>
+        <button class="btn btn-success" id="editplayer">Edit</button>
+        <div class="row">
+        <div class="col-md-6">
+            <form role="form">
+                <table class="table aa">
+                    <tr>
+                        <th>
+                            <label>Name</label>
+                        </th>
+                        <td>
+                            <input type="text" class="form-control" id="e_name">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            <label>Age</label>
+                        </th>
+                        <td>
+                            <input type="text" class="form-control" id="e_age">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            <label>Position</label>
+                        </th>
+                        <td>
+                            <input type="text" class="form-control" id="e_position">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            <label>Club</label>
+                        </th>
+                        <td>
+                            <input type="text" class="form-control" id="e_club">
+                        </td>
+                    </tr
+                    <tr>
+                        <th>
+                            <label>Apperances</label>
+                        </th>
+                        <td>
+                            <input type="text" class="form-control" id="e_apprances">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            <label>Goals</label>
+                        </th>
+                        <td>
+                            <input type="text" class="form-control" id="e_goals">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            <label>Assists</label>
+                        </th>
+                        <td>
+                            <input type="text" class="form-control" id="e_assists">
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/editplayer.js"></script>
+</body>
+
+</html>

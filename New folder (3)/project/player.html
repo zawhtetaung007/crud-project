@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>player</title>
+    <script type="text/javascript" src="jquery.js"></script>
+    <!-- Datable Table ===========================================================================-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/dataTables.jqueryui.min.css">
+    <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body class="player">
+    <nav class="navbar navbar-expand-sm bg-secondary navbar-dark ">
+        <ul class="navbar-nav ">
+            <li class="nav-item">
+                <a href="index.html">
+                    <button type="button" class="btn btn-primary active">Home</button>
+                </a>
+            </li>
+            <li class="nav-item" href="#">
+                <a href="player.html">
+                    <button type="button" class="btn btn-primary active">Player</button>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="team.html">
+                    <button type="button" class="btn btn-primary active">Team</button>
+                </a>
+            </li>
+            <li>
+                <h3 class="h">Player Table</h3>
+            </li>
+        </ul>
+    </nav>
+    <div class="container">
+        <br>
+        <br>
+        <a href="addplayer.html">
+            <button type="button" class="btn btn-primary active">Add Player</button>
+        </a>
+        <br>
+        <br>
+        <table id="playertable" class="table table-hover table-bordered table-striped" style="border: 1px solid black">
+            <thead class="head">
+                <tr>
+                    <th scope="col">Name</th>
+                    <th scope="col">Age</th>
+                    <th scope="col">Positions</th>
+                    <th scope="col">Club</th>
+                    <th scope="col">Apperances</th>
+                    <th scope="col">Goals</th>
+                    <th scope="col">Assits</th>
+                    <th scope="col">Edit</th>
+                    <th scope="col">Delete</th>
+
+                </tr>
+            </thead>
+            <tbody id="playerTableBody" class="aa">
+
+            </tbody>
+        </table>
+    </div>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/player.js"></script>
+    <script type="text/javascript" src="js/deleteplayer.js"></script>
+</body>
+
+</html>
